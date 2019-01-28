@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <body>
+  <table style="width:100%">
+  <tr>
+   <th>Pod_name</th>
+    <th>Pod_ip</th>
+  </tr>
+  
+  <tr> 
+     {% for var in name %}
+     <td> {{var}}</td>
+       {% for ip_ad in ip %}
+     <td> {{ip_ad}}</td>
+       {% endfor %}
+     {% endfor %}
+  </tr>
+   
+
+   </body>
+</html>
