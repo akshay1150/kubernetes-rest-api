@@ -7,14 +7,15 @@
     <th>Pod_ip</th>
   </tr>
   
-  <tr> 
+  
      {% for var in name %}
+    <tr>
      <td> {{var}}</td>
        {% for ip_ad in ip %}
      <td> {{ip_ad}}</td>
        {% endfor %}
+     </tr>
      {% endfor %}
-  </tr>
    
 
    </body>
